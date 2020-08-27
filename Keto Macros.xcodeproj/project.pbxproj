@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61A959924EDA82100765A56 /* Keto Disclosures.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A61A959824EDA82100765A56 /* Keto Disclosures.pdf */; };
+		A61A959B24EDA82E00765A56 /* Keto Privacy Policy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A61A959A24EDA82E00765A56 /* Keto Privacy Policy.pdf */; };
+		A62174C424D9D38400F33230 /* Garbage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62174C324D9D38400F33230 /* Garbage.swift */; };
+		A62174C824DA63A400F33230 /* LevelOfActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62174C724DA63A400F33230 /* LevelOfActivityVC.swift */; };
+		A63F067A24D660830032D464 /* GenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63F067924D660830032D464 /* GenderVC.swift */; };
+		A63F067C24D689320032D464 /* UnitsConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63F067B24D689320032D464 /* UnitsConfirmationVC.swift */; };
+		A64263C324EB444900EA7346 /* NutritionDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64263C224EB444900EA7346 /* NutritionDescriptionVC.swift */; };
+		A64263C524EB6EDD00EA7346 /* OldResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64263C424EB6EDD00EA7346 /* OldResultsVC.swift */; };
+		A67B8C2F24F087E90006DC3C /* FoodDataCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B8C2E24F087E90006DC3C /* FoodDataCentral.swift */; };
+		A694A17E24DE1CA200ACF38A /* Keto_Macros_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A694A17D24DE1CA200ACF38A /* Keto_Macros_Tests.swift */; };
+		A6AB127E24F5E344005F74D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB127D24F5E344005F74D3 /* Utilities.swift */; };
+		A6BA1ADA24F41F70006E8B10 /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1AD924F41F70006E8B10 /* FoodVC.swift */; };
+		A6BA1ADC24F42000006E8B10 /* FoodVCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1ADB24F42000006E8B10 /* FoodVCTable.swift */; };
+		A6BA1ADE24F482DF006E8B10 /* KnowYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1ADD24F482DF006E8B10 /* KnowYouVC.swift */; };
+		A6BA1AE024F48688006E8B10 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1ADF24F48688006E8B10 /* User.swift */; };
+		A6BA1AE224F48735006E8B10 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1AE124F48735006E8B10 /* LoginVC.swift */; };
+		A6BA1AE424F487BC006E8B10 /* NewHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1AE324F487BC006E8B10 /* NewHomeVC.swift */; };
+		A6BB1E1A24D7699100203E8C /* HeightAndAgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB1E1924D7699100203E8C /* HeightAndAgeVC.swift */; };
+		A6E1295F24DB874300D683B1 /* WeightLossGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1295E24DB874300D683B1 /* WeightLossGoalVC.swift */; };
+		A6E1296124DBA87F00D683B1 /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1296024DBA87F00D683B1 /* ResultsVC.swift */; };
+		A6EC5EC524E70BCE00080110 /* InformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EC5EC424E70BCE00080110 /* InformationVC.swift */; };
+		A6EC5ECC24E774BB00080110 /* ModBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EC5ECB24E774BB00080110 /* ModBorderButton.swift */; };
+		A6F2010424E63003006F4616 /* NutritionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2010324E63003006F4616 /* NutritionVC.swift */; };
+		A6F2010624E64493006F4616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F2010524E64493006F4616 /* Main.storyboard */; };
+		A6F26A6B24D4EA57009AFD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F26A6A24D4EA57009AFD07 /* AppDelegate.swift */; };
+		A6F26A6D24D4EA57009AFD07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F26A6C24D4EA57009AFD07 /* SceneDelegate.swift */; };
+		A6F26A7424D4EA59009AFD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F26A7324D4EA59009AFD07 /* Assets.xcassets */; };
+		A6F26A7724D4EA59009AFD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F26A7524D4EA59009AFD07 /* LaunchScreen.storyboard */; };
+		A6F26A8224D4F300009AFD07 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F26A8124D4F300009AFD07 /* BorderButton.swift */; };
+		A6F26A8424D4FFDC009AFD07 /* CurrentWeightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F26A8324D4FFDC009AFD07 /* CurrentWeightVC.swift */; };
+		A6F26A8624D4FFF7009AFD07 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F26A8524D4FFF7009AFD07 /* WelcomeVC.swift */; };
+		A6F26A8B24D512BC009AFD07 /* UserHealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F26A8A24D512BC009AFD07 /* UserHealthData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A694A18024DE1CA200ACF38A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F26A5F24D4EA57009AFD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6F26A6624D4EA57009AFD07;
+			remoteInfo = "Keto Macros";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A645468024DCFA8B009A924D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A61A959824EDA82100765A56 /* Keto Disclosures.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Keto Disclosures.pdf"; sourceTree = "<group>"; };
+		A61A959A24EDA82E00765A56 /* Keto Privacy Policy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Keto Privacy Policy.pdf"; sourceTree = "<group>"; };
+		A62174C324D9D38400F33230 /* Garbage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garbage.swift; sourceTree = "<group>"; };
+		A62174C724DA63A400F33230 /* LevelOfActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOfActivityVC.swift; sourceTree = "<group>"; };
+		A624A54924F32A19007DC9B2 /* bacon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bacon.jpeg; sourceTree = "<group>"; };
+		A63F067924D660830032D464 /* GenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderVC.swift; sourceTree = "<group>"; };
+		A63F067B24D689320032D464 /* UnitsConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsConfirmationVC.swift; sourceTree = "<group>"; };
+		A64263C224EB444900EA7346 /* NutritionDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDescriptionVC.swift; sourceTree = "<group>"; };
+		A64263C424EB6EDD00EA7346 /* OldResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldResultsVC.swift; sourceTree = "<group>"; };
+		A67B8C2E24F087E90006DC3C /* FoodDataCentral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataCentral.swift; sourceTree = "<group>"; };
+		A694A17B24DE1CA200ACF38A /* Keto Macros Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keto Macros Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A694A17D24DE1CA200ACF38A /* Keto_Macros_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keto_Macros_Tests.swift; sourceTree = "<group>"; };
+		A694A17F24DE1CA200ACF38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AB127D24F5E344005F74D3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A6BA1AD924F41F70006E8B10 /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
+		A6BA1ADB24F42000006E8B10 /* FoodVCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVCTable.swift; sourceTree = "<group>"; };
+		A6BA1ADD24F482DF006E8B10 /* KnowYouVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYouVC.swift; sourceTree = "<group>"; };
+		A6BA1ADF24F48688006E8B10 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A6BA1AE124F48735006E8B10 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A6BA1AE324F487BC006E8B10 /* NewHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHomeVC.swift; sourceTree = "<group>"; };
+		A6BA1AE524F48B74006E8B10 /* Keto Macros.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Keto Macros.entitlements"; sourceTree = "<group>"; };
+		A6BB1E1924D7699100203E8C /* HeightAndAgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightAndAgeVC.swift; sourceTree = "<group>"; };
+		A6E1295E24DB874300D683B1 /* WeightLossGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLossGoalVC.swift; sourceTree = "<group>"; };
+		A6E1296024DBA87F00D683B1 /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+		A6EC5EC424E70BCE00080110 /* InformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationVC.swift; sourceTree = "<group>"; };
+		A6EC5ECB24E774BB00080110 /* ModBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModBorderButton.swift; sourceTree = "<group>"; };
+		A6F2010324E63003006F4616 /* NutritionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionVC.swift; sourceTree = "<group>"; };
+		A6F2010524E64493006F4616 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A6F26A6724D4EA57009AFD07 /* Keto Macros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keto Macros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F26A6A24D4EA57009AFD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6F26A6C24D4EA57009AFD07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6F26A7324D4EA59009AFD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6F26A7624D4EA59009AFD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6F26A7824D4EA59009AFD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F26A8124D4F300009AFD07 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		A6F26A8324D4FFDC009AFD07 /* CurrentWeightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeightVC.swift; sourceTree = "<group>"; };
+		A6F26A8524D4FFF7009AFD07 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		A6F26A8A24D512BC009AFD07 /* UserHealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHealthData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A694A17824DE1CA200ACF38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F26A6424D4EA57009AFD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A624A54624F329C4007DC9B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A624A54924F32A19007DC9B2 /* bacon.jpeg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A694A17C24DE1CA200ACF38A /* Keto Macros Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A694A17D24DE1CA200ACF38A /* Keto_Macros_Tests.swift */,
+				A694A17F24DE1CA200ACF38A /* Info.plist */,
+			);
+			path = "Keto Macros Tests";
+			sourceTree = "<group>";
+		};
+		A6EC5EC824E75C6100080110 /* Privacy Policy */ = {
+			isa = PBXGroup;
+			children = (
+				A61A959824EDA82100765A56 /* Keto Disclosures.pdf */,
+				A61A959A24EDA82E00765A56 /* Keto Privacy Policy.pdf */,
+			);
+			path = "Privacy Policy";
+			sourceTree = "<group>";
+		};
+		A6F26A5E24D4EA57009AFD07 = {
+			isa = PBXGroup;
+			children = (
+				A6F26A6924D4EA57009AFD07 /* Keto Macros */,
+				A694A17C24DE1CA200ACF38A /* Keto Macros Tests */,
+				A6F26A6824D4EA57009AFD07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F26A6824D4EA57009AFD07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F26A6724D4EA57009AFD07 /* Keto Macros.app */,
+				A694A17B24DE1CA200ACF38A /* Keto Macros Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F26A6924D4EA57009AFD07 /* Keto Macros */ = {
+			isa = PBXGroup;
+			children = (
+				A6BA1AE524F48B74006E8B10 /* Keto Macros.entitlements */,
+				A624A54624F329C4007DC9B2 /* Resources */,
+				A6EC5EC824E75C6100080110 /* Privacy Policy */,
+				A6F26A8924D5123F009AFD07 /* Model */,
+				A6F26A8024D4F065009AFD07 /* Views */,
+				A6F26A7E24D4EACB009AFD07 /* Controllers */,
+				A6F26A6A24D4EA57009AFD07 /* AppDelegate.swift */,
+				A6F26A6C24D4EA57009AFD07 /* SceneDelegate.swift */,
+				A6F26A7324D4EA59009AFD07 /* Assets.xcassets */,
+				A6F2010524E64493006F4616 /* Main.storyboard */,
+				A6F26A7524D4EA59009AFD07 /* LaunchScreen.storyboard */,
+				A6F26A7824D4EA59009AFD07 /* Info.plist */,
+				A62174C324D9D38400F33230 /* Garbage.swift */,
+			);
+			path = "Keto Macros";
+			sourceTree = "<group>";
+		};
+		A6F26A7E24D4EACB009AFD07 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F26A8524D4FFF7009AFD07 /* WelcomeVC.swift */,
+				A6EC5EC424E70BCE00080110 /* InformationVC.swift */,
+				A63F067924D660830032D464 /* GenderVC.swift */,
+				A63F067B24D689320032D464 /* UnitsConfirmationVC.swift */,
+				A6F26A8324D4FFDC009AFD07 /* CurrentWeightVC.swift */,
+				A6BB1E1924D7699100203E8C /* HeightAndAgeVC.swift */,
+				A62174C724DA63A400F33230 /* LevelOfActivityVC.swift */,
+				A6E1295E24DB874300D683B1 /* WeightLossGoalVC.swift */,
+				A6E1296024DBA87F00D683B1 /* ResultsVC.swift */,
+				A6F2010324E63003006F4616 /* NutritionVC.swift */,
+				A64263C224EB444900EA7346 /* NutritionDescriptionVC.swift */,
+				A64263C424EB6EDD00EA7346 /* OldResultsVC.swift */,
+				A6BA1AD924F41F70006E8B10 /* FoodVC.swift */,
+				A6BA1ADB24F42000006E8B10 /* FoodVCTable.swift */,
+				A6BA1ADD24F482DF006E8B10 /* KnowYouVC.swift */,
+				A6BA1AE124F48735006E8B10 /* LoginVC.swift */,
+				A6BA1AE324F487BC006E8B10 /* NewHomeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6F26A8024D4F065009AFD07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6F26A8124D4F300009AFD07 /* BorderButton.swift */,
+				A6EC5ECB24E774BB00080110 /* ModBorderButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6F26A8924D5123F009AFD07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6F26A8A24D512BC009AFD07 /* UserHealthData.swift */,
+				A67B8C2E24F087E90006DC3C /* FoodDataCentral.swift */,
+				A6BA1ADF24F48688006E8B10 /* User.swift */,
+				A6AB127D24F5E344005F74D3 /* Utilities.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A694A17A24DE1CA200ACF38A /* Keto Macros Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A694A18424DE1CA200ACF38A /* Build configuration list for PBXNativeTarget "Keto Macros Tests" */;
+			buildPhases = (
+				A694A17724DE1CA200ACF38A /* Sources */,
+				A694A17824DE1CA200ACF38A /* Frameworks */,
+				A694A17924DE1CA200ACF38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A694A18124DE1CA200ACF38A /* PBXTargetDependency */,
+			);
+			name = "Keto Macros Tests";
+			productName = "Keto Macros Tests";
+			productReference = A694A17B24DE1CA200ACF38A /* Keto Macros Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6F26A6624D4EA57009AFD07 /* Keto Macros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F26A7B24D4EA59009AFD07 /* Build configuration list for PBXNativeTarget "Keto Macros" */;
+			buildPhases = (
+				A6F26A6324D4EA57009AFD07 /* Sources */,
+				A6F26A6424D4EA57009AFD07 /* Frameworks */,
+				A6F26A6524D4EA57009AFD07 /* Resources */,
+				A645468024DCFA8B009A924D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keto Macros";
+			productName = "Keto Macros";
+			productReference = A6F26A6724D4EA57009AFD07 /* Keto Macros.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F26A5F24D4EA57009AFD07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Project X";
+				TargetAttributes = {
+					A694A17A24DE1CA200ACF38A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A6F26A6624D4EA57009AFD07;
+					};
+					A6F26A6624D4EA57009AFD07 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = A6F26A6224D4EA57009AFD07 /* Build configuration list for PBXProject "Keto Macros" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6F26A5E24D4EA57009AFD07;
+			productRefGroup = A6F26A6824D4EA57009AFD07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F26A6624D4EA57009AFD07 /* Keto Macros */,
+				A694A17A24DE1CA200ACF38A /* Keto Macros Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A694A17924DE1CA200ACF38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F26A6524D4EA57009AFD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61A959B24EDA82E00765A56 /* Keto Privacy Policy.pdf in Resources */,
+				A6F2010624E64493006F4616 /* Main.storyboard in Resources */,
+				A6F26A7724D4EA59009AFD07 /* LaunchScreen.storyboard in Resources */,
+				A6F26A7424D4EA59009AFD07 /* Assets.xcassets in Resources */,
+				A61A959924EDA82100765A56 /* Keto Disclosures.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A694A17724DE1CA200ACF38A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A694A17E24DE1CA200ACF38A /* Keto_Macros_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F26A6324D4EA57009AFD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F26A8424D4FFDC009AFD07 /* CurrentWeightVC.swift in Sources */,
+				A6F26A8B24D512BC009AFD07 /* UserHealthData.swift in Sources */,
+				A6E1296124DBA87F00D683B1 /* ResultsVC.swift in Sources */,
+				A6BA1AE024F48688006E8B10 /* User.swift in Sources */,
+				A6AB127E24F5E344005F74D3 /* Utilities.swift in Sources */,
+				A67B8C2F24F087E90006DC3C /* FoodDataCentral.swift in Sources */,
+				A62174C824DA63A400F33230 /* LevelOfActivityVC.swift in Sources */,
+				A6BB1E1A24D7699100203E8C /* HeightAndAgeVC.swift in Sources */,
+				A6F26A6B24D4EA57009AFD07 /* AppDelegate.swift in Sources */,
+				A6F26A8624D4FFF7009AFD07 /* WelcomeVC.swift in Sources */,
+				A6BA1AE424F487BC006E8B10 /* NewHomeVC.swift in Sources */,
+				A62174C424D9D38400F33230 /* Garbage.swift in Sources */,
+				A6F26A6D24D4EA57009AFD07 /* SceneDelegate.swift in Sources */,
+				A6BA1ADC24F42000006E8B10 /* FoodVCTable.swift in Sources */,
+				A64263C524EB6EDD00EA7346 /* OldResultsVC.swift in Sources */,
+				A6F2010424E63003006F4616 /* NutritionVC.swift in Sources */,
+				A6EC5ECC24E774BB00080110 /* ModBorderButton.swift in Sources */,
+				A6BA1ADE24F482DF006E8B10 /* KnowYouVC.swift in Sources */,
+				A6E1295F24DB874300D683B1 /* WeightLossGoalVC.swift in Sources */,
+				A64263C324EB444900EA7346 /* NutritionDescriptionVC.swift in Sources */,
+				A63F067C24D689320032D464 /* UnitsConfirmationVC.swift in Sources */,
+				A6F26A8224D4F300009AFD07 /* BorderButton.swift in Sources */,
+				A6BA1AE224F48735006E8B10 /* LoginVC.swift in Sources */,
+				A6EC5EC524E70BCE00080110 /* InformationVC.swift in Sources */,
+				A6BA1ADA24F41F70006E8B10 /* FoodVC.swift in Sources */,
+				A63F067A24D660830032D464 /* GenderVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A694A18124DE1CA200ACF38A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6F26A6624D4EA57009AFD07 /* Keto Macros */;
+			targetProxy = A694A18024DE1CA200ACF38A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6F26A7524D4EA59009AFD07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F26A7624D4EA59009AFD07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A694A18224DE1CA200ACF38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N94X6T5YA5;
+				INFOPLIST_FILE = "Keto Macros Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xamacodes.Keto-Macros-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keto Macros.app/Keto Macros";
+			};
+			name = Debug;
+		};
+		A694A18324DE1CA200ACF38A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N94X6T5YA5;
+				INFOPLIST_FILE = "Keto Macros Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xamacodes.Keto-Macros-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keto Macros.app/Keto Macros";
+			};
+			name = Release;
+		};
+		A6F26A7924D4EA59009AFD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6F26A7A24D4EA59009AFD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F26A7C24D4EA59009AFD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Keto Macros/Keto Macros.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N94X6T5YA5;
+				INFOPLIST_FILE = "Keto Macros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xamacodes.Keto-Macros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F26A7D24D4EA59009AFD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Keto Macros/Keto Macros.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N94X6T5YA5;
+				INFOPLIST_FILE = "Keto Macros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xamacodes.Keto-Macros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A694A18424DE1CA200ACF38A /* Build configuration list for PBXNativeTarget "Keto Macros Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A694A18224DE1CA200ACF38A /* Debug */,
+				A694A18324DE1CA200ACF38A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F26A6224D4EA57009AFD07 /* Build configuration list for PBXProject "Keto Macros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F26A7924D4EA59009AFD07 /* Debug */,
+				A6F26A7A24D4EA59009AFD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F26A7B24D4EA59009AFD07 /* Build configuration list for PBXNativeTarget "Keto Macros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F26A7C24D4EA59009AFD07 /* Debug */,
+				A6F26A7D24D4EA59009AFD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F26A5F24D4EA57009AFD07 /* Project object */;
+}
