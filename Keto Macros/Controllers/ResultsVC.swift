@@ -64,9 +64,9 @@ class ResultsVC: UIViewController {
         if lowCalories {
             lowCaloriesError()
         } else {
-            updateMacrosLbl(whichMacro: "carbs")
-            updateMacrosLbl(whichMacro: "protein")
-            updateMacrosLbl(whichMacro: "fats")
+            updateMacrosLbl(whichCalsLbl: carbsCalsLbl, whichMacro: "carbs")
+            updateMacrosLbl(whichCalsLbl: proteinCalsLbl, whichMacro: "protein")
+            updateMacrosLbl(whichCalsLbl: fatsCalsLbl, whichMacro: "fats")
         }
     }
     
@@ -85,25 +85,23 @@ class ResultsVC: UIViewController {
     }
     
     //Updates the carbs, protein, or fats labels with the calculated macro amount
-    func updateMacrosLbl(whichMacro: String) {
+    func updateMacrosLbl(whichCalsLbl: UILabel, whichMacro: String) {
         let cals = getCalories()
         var newMacro = whichMacro
         var macroCals: Double = 0
         
         if whichMacro == "carbs" {
             macroCals = cals * 0.05
-            carbsCalsLbl.text = "\(Int(macroCals)) calories"
             carbsGramsLbl.text = "\(Int(macroCals / 4)) grams"
         } else if whichMacro == "protein" {
             macroCals = cals * 0.2
-            proteinCalsLbl.text = "\(Int(macroCals)) calories"
             proteinGramsLbl.text = "\(Int(macroCals / 4)) grams"
         } else if whichMacro == "fats" {
             macroCals = cals * 0.7
-            fatsCalsLbl.text = "\(Int(macroCals)) calories"
             fatsGramsLbl.text = "\(Int(macroCals / 9)) grams"
         }
         
+        whichCalsLbl.text = "\(Int(macroCals)) calories"
         newMacro.append(" in cals")
         UserDefaults.standard.set(macroCals, forKey: newMacro)
     }

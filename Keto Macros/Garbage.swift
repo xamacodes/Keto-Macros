@@ -178,3 +178,34 @@ import Foundation
 //    fatsCalsLbl.text = "\(Int(fatsCals)) calories"
 //    fatsGramsLbl.text = "\(Int(fatsCals / 9)) grams"
 //}
+
+
+//if let fatsCals = UserDefaults.standard.object(forKey: "fats in cals") as? Double {
+//    var fatsCalsString = String(Int(fatsCals))
+//    fatsCalsString.append(" calories")
+//    fatsCalsLbl.text = fatsCalsString
+//
+//    var fatsGramsString = String(Int(fatsCals / 9))
+//    fatsGramsString.append(" grams")
+//    fatsGramsLbl.text = fatsGramsString
+//}
+//
+//if let proteinCals = UserDefaults.standard.object(forKey: "protein in cals") as? Double {
+//    var proteinCalsString = String(Int(proteinCals))
+//    proteinCalsString.append(" calories")
+//    proteinCalsLbl.text = proteinCalsString
+//
+//    var proteinGramsString = String(Int(proteinCals / 4))
+//    proteinGramsString.append(" grams")
+//    proteinGramsLbl.text = proteinGramsString
+//}
+//
+//if let carbsCals = UserDefaults.standard.object(forKey: "carbs in cals") as? Double {
+//    var carbsCalsString = String(Int(carbsCals))
+//    carbsCalsString.append(" calories")
+//    carbsCalsLbl.text = carbsCalsString
+//
+//    var carbsGramsString = String(Int(carbsCals / 4))
+//    carbsGramsString.append(" grams")
+//    carbsGramsLbl.text = carbsGramsString
+//}

@@ -22,66 +22,67 @@ class OldResultsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        notRecLbl.isHidden = true
-        getCaloriesAndUpdateLbls()
-        
+        setupView()
     }
     
-    @objc func getCaloriesAndUpdateLbls() {
+    //Sets up the initial view
+    func setupView() {
+        notRecLbl.isHidden = true
+        getCaloriesAndUpdateLbls()
+    }
+    
+    //Sets all of the macros labels, include the calories label
+    func getCaloriesAndUpdateLbls() {
         if let calories = UserDefaults.standard.object(forKey: "calories") as? Double {
             updateCalsLbl()
             if calories < 100 {
                 notRecLbl.isHidden = false
                 lowCaloriesError()
             } else {
-                setLbls()
+                updateMacrosLbls(whichMacroCals: fatsCalsLbl, whichMacroGrams: fatsGramsLbl, whichMacroKey: "fats in cals")
+                updateMacrosLbls(whichMacroCals: proteinCalsLbl, whichMacroGrams: proteinGramsLbl, whichMacroKey: "protein in cals")
+                updateMacrosLbls(whichMacroCals: carbsCalsLbl, whichMacroGrams: carbsGramsLbl, whichMacroKey: "carbs in cals")
             }
+        } else {
+            Utilities.errorMsg("OldResultsVC.getCaloriesAndUpdateLbls(): error code 13 -> data retrieval")
         }
     }
     
-    @objc func updateCalsLbl() {
+    //Framework for setting the calories label. Fails if the amount is < 1,000
+    func updateCalsLbl() {
         if let calories = UserDefaults.standard.object(forKey: "calories") as? Double {
             if calories < 1000 {
                 notRecLbl.isHidden = false
             }
             caloriesLbl.text = String(Int(calories))
+        } else {
+            Utilities.errorMsg("OldResultsVC.updateCalsLbls(): error code 14 -> data retrieval")
         }
     }
     
-    @objc func setLbls() {
-        if let fatsCals = UserDefaults.standard.object(forKey: "fats in cals") as? Double {
-            var fatsCalsString = String(Int(fatsCals))
-            fatsCalsString.append(" calories")
-            fatsCalsLbl.text = fatsCalsString
+    //Framework for determining the macros labels
+    func updateMacrosLbls(whichMacroCals: UILabel, whichMacroGrams: UILabel, whichMacroKey: String) {
+        if let macroCals = UserDefaults.standard.object(forKey: whichMacroKey) as? Double {
+            var macroCalsString = String(Int(macroCals))
+            macroCalsString.append(" calories")
+            whichMacroCals.text = macroCalsString
             
-            var fatsGramsString = String(Int(fatsCals / 9))
-            fatsGramsString.append(" grams")
-            fatsGramsLbl.text = fatsGramsString
-        }
-
-        if let proteinCals = UserDefaults.standard.object(forKey: "protein in cals") as? Double {
-            var proteinCalsString = String(Int(proteinCals))
-            proteinCalsString.append(" calories")
-            proteinCalsLbl.text = proteinCalsString
+            var macroGramsString: String
+            if whichMacroKey == "fats in cals" {
+                macroGramsString = String(Int(macroCals / 9))
+            } else {
+                macroGramsString = String(Int(macroCals / 4))
+            }
             
-            var proteinGramsString = String(Int(proteinCals / 4))
-            proteinGramsString.append(" grams")
-            proteinGramsLbl.text = proteinGramsString
+            macroGramsString.append(" grams")
+            whichMacroGrams.text = macroGramsString
+        } else {
+            Utilities.errorMsg("OldResultsVC.updateMacrosLbls(): error code 15 -> data retrieval")
         }
-
-        if let carbsCals = UserDefaults.standard.object(forKey: "carbs in cals") as? Double {
-            var carbsCalsString = String(Int(carbsCals))
-            carbsCalsString.append(" calories")
-            carbsCalsLbl.text = carbsCalsString
-            
-            var carbsGramsString = String(Int(carbsCals / 4))
-            carbsGramsString.append(" grams")
-            carbsGramsLbl.text = carbsGramsString
-        }
-
     }
     
-    @objc func lowCaloriesError() {
+    //Alerts the user if their total calories is < 1,000
+    func lowCaloriesError() {
        let message = "1,000 calorie minimum."
        let alertController = UIAlertController(title: "Warning", message: message, preferredStyle: .alert)
        let defaultAction = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
@@ -89,6 +90,7 @@ class OldResultsVC: UIViewController {
        present(alertController, animated: true, completion: nil)
     }
     
+    //Allows the user to share their results via email, saving the image, etc.
     @IBAction func shareTapped(_ sender: Any) {
         UIGraphicsBeginImageContext(view.frame.size)
         view.layer.render(in: UIGraphicsGetCurrentContext()!)

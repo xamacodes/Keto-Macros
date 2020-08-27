@@ -15,42 +15,50 @@ class NutritionDescriptionVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        determineLbl()
-        
+        setupView()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    @objc func getData(macro: String) -> Int {
+    //Sets up the initial view
+    func setupView() {
+        setMacroLbl()
+    }
+    
+    //Gets the macro cals data from User Defaults and converts it to grams
+    func convertCalsToGrams(macro: String) -> Int {
         if macro == "fats" {
             if let fatsCals = UserDefaults.standard.object(forKey: "fats in cals") as? Double {
                 let fatsGrams = fatsCals / 9
                 return Int(fatsGrams)
+            } else {
+                Utilities.errorMsg("NutritionVC.convertCalsToGrams(): error code 12.1 -> data retrieval")
             }
         } else if macro == "carbs" {
             if let carbsCals = UserDefaults.standard.object(forKey: "carbs in cals") as? Double {
                 let carbsGrams = carbsCals / 4
                 return Int(carbsGrams)
+            } else {
+                Utilities.errorMsg("NutritionVC.convertCalsToGrams(): error code 12.2 -> data retrieval")
             }
         } else if macro == "protein" {
             if let proteinCals = UserDefaults.standard.object(forKey: "protein in cals") as? Double {
                 let proteinGrams = proteinCals / 4
                 return Int(proteinGrams)
+            } else {
+                Utilities.errorMsg("NutritionVC.convertCalsToGrams(): error code 12.3 -> data retrieval")
             }
         }
-        return 0
+        return 12 //some error occurred
     }
     
-    @IBAction func closeBtnTapped(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-    @objc func determineLbl() {
+    //Determines which macro description will be shown
+    func setMacroLbl() {
         var lbl: String = ""
         if UserHealthData.whichInfo == "fats" {
-            let data = getData(macro: "fats")
+            let data = convertCalsToGrams(macro: "fats")
             if data > 4 {
                 let rounded = (round((Double(4 / Double(data))) * 10) / 10) * 100
                 var dataAsString: String
@@ -65,7 +73,7 @@ class NutritionDescriptionVC: UIViewController {
                 lbl = "On most nutrition labels, your macros will be shown in grams. From the data you have entered, your total daily intake of fats should be \(data)g. This product has 4g of fats, which matches or exceeds your daily recommended intake."
             }
         } else if UserHealthData.whichInfo == "carbs" {
-            let data = getData(macro: "carbs")
+            let data = convertCalsToGrams(macro: "carbs")
             if data > 46 {
                 let rounded = (round((Double(46 / Double(data))) * 10) / 10) * 100
                 var dataAsString: String
@@ -80,7 +88,7 @@ class NutritionDescriptionVC: UIViewController {
                 lbl = "On most nutrition labels, your macros will be shown in grams. From the data you have entered, your total daily intake of carbs should be \(data)g. This product has 46g of carbs, which matches or exceeds your daily recommended intake."
             }
         } else if UserHealthData.whichInfo == "protein" {
-            let data = getData(macro: "protein")
+            let data = convertCalsToGrams(macro: "protein")
             if data > 11 {
                 let rounded = (round((Double(11 / Double(data))) * 10) / 10) * 100
                 var dataAsString: String
@@ -101,6 +109,9 @@ class NutritionDescriptionVC: UIViewController {
         desc.text = lbl
     }
     
-    
+    //Dismisses the view and returns to the nutrition vc
+    @IBAction func closeBtnTapped(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 
 }
