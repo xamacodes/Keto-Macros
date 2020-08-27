@@ -69,7 +69,6 @@
 		A61A959A24EDA82E00765A56 /* Keto Privacy Policy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Keto Privacy Policy.pdf"; sourceTree = "<group>"; };
 		A62174C324D9D38400F33230 /* Garbage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garbage.swift; sourceTree = "<group>"; };
 		A62174C724DA63A400F33230 /* LevelOfActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOfActivityVC.swift; sourceTree = "<group>"; };
-		A624A54924F32A19007DC9B2 /* bacon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bacon.jpeg; sourceTree = "<group>"; };
 		A63F067924D660830032D464 /* GenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderVC.swift; sourceTree = "<group>"; };
 		A63F067B24D689320032D464 /* UnitsConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsConfirmationVC.swift; sourceTree = "<group>"; };
 		A64263C224EB444900EA7346 /* NutritionDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDescriptionVC.swift; sourceTree = "<group>"; };
@@ -123,14 +122,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A624A54624F329C4007DC9B2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A624A54924F32A19007DC9B2 /* bacon.jpeg */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		A694A17C24DE1CA200ACF38A /* Keto Macros Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,13 +131,22 @@
 			path = "Keto Macros Tests";
 			sourceTree = "<group>";
 		};
-		A6EC5EC824E75C6100080110 /* Privacy Policy */ = {
+		A6F1BEB324F766700041E744 /* Legal */ = {
 			isa = PBXGroup;
 			children = (
-				A61A959824EDA82100765A56 /* Keto Disclosures.pdf */,
 				A61A959A24EDA82E00765A56 /* Keto Privacy Policy.pdf */,
+				A61A959824EDA82100765A56 /* Keto Disclosures.pdf */,
 			);
-			path = "Privacy Policy";
+			path = Legal;
+			sourceTree = "<group>";
+		};
+		A6F1BEB424F766C70041E744 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A6F26A6A24D4EA57009AFD07 /* AppDelegate.swift */,
+				A6F26A6C24D4EA57009AFD07 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		A6F26A5E24D4EA57009AFD07 = {
@@ -170,18 +170,16 @@
 		A6F26A6924D4EA57009AFD07 /* Keto Macros */ = {
 			isa = PBXGroup;
 			children = (
-				A6BA1AE524F48B74006E8B10 /* Keto Macros.entitlements */,
-				A624A54624F329C4007DC9B2 /* Resources */,
-				A6EC5EC824E75C6100080110 /* Privacy Policy */,
+				A6F1BEB424F766C70041E744 /* App */,
+				A6F1BEB324F766700041E744 /* Legal */,
 				A6F26A8924D5123F009AFD07 /* Model */,
 				A6F26A8024D4F065009AFD07 /* Views */,
 				A6F26A7E24D4EACB009AFD07 /* Controllers */,
-				A6F26A6A24D4EA57009AFD07 /* AppDelegate.swift */,
-				A6F26A6C24D4EA57009AFD07 /* SceneDelegate.swift */,
 				A6F26A7324D4EA59009AFD07 /* Assets.xcassets */,
 				A6F2010524E64493006F4616 /* Main.storyboard */,
 				A6F26A7524D4EA59009AFD07 /* LaunchScreen.storyboard */,
 				A6F26A7824D4EA59009AFD07 /* Info.plist */,
+				A6BA1AE524F48B74006E8B10 /* Keto Macros.entitlements */,
 				A62174C324D9D38400F33230 /* Garbage.swift */,
 			);
 			path = "Keto Macros";
