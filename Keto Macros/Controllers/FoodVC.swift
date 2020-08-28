@@ -17,7 +17,6 @@ class FoodVC: UIViewController {
     var fatsIndex: Int?
     var proteinIndex: Int?
     var carbsIndex: Int?
-    
     var food: Food?
     
     override func viewDidLoad() {

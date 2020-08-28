@@ -19,6 +19,7 @@ class ResultsVC: UIViewController {
     @IBOutlet weak var fatsGramsLbl: UILabel!
     @IBOutlet weak var fatsCalsLbl: UILabel!
     @IBOutlet weak var notRecLbl: UILabel!
+    
     var lowCalories: Bool!
     
     override func viewDidLoad() {

@@ -12,6 +12,6 @@ class ModBorderButton: UIButton { //Simply for curving the edges
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        layer.cornerRadius = 5
+        layer.cornerRadius = 17
     }
 }

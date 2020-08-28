@@ -27,7 +27,7 @@
                                             <constraint firstAttribute="height" constant="200" id="PM7-Q9-ifQ"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwf-sA-elk" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwf-sA-elk" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="213" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -39,7 +39,7 @@
                                             <segue destination="L1E-gd-bYb" kind="show" id="Ptx-EH-AnC"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAh-Ok-Gfv" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAh-Ok-Gfv" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="262" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -51,7 +51,7 @@
                                             <segue destination="74M-uY-NUT" kind="show" id="EbK-SO-GC1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wl8-9S-6hx" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wl8-9S-6hx" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="311" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -63,7 +63,7 @@
                                             <action selector="viewResultsBtnTapped:" destination="PQL-Te-FA0" eventType="touchUpInside" id="jDI-x6-coO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WS-ky-yut" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WS-ky-yut" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="360" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBh-I1-BKG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1123" y="97"/>
+            <point key="canvasLocation" x="-1357" y="96"/>
         </scene>
         <!--Know YouVC-->
         <scene sceneID="a9c-4k-bXb">
@@ -154,7 +154,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vw0-f4-3H1" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vw0-f4-3H1" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                 <rect key="frame" x="30" y="806" width="354" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -166,18 +166,26 @@
                                     <segue destination="7vb-a8-9JY" kind="show" id="tiM-dY-jv9"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="FDq-8S-0wQ">
+                                <rect key="frame" x="7" y="118" width="400" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="nxd-iS-m4G"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="VeW-Mr-gib" firstAttribute="top" secondItem="bvW-1q-nKl" secondAttribute="top" id="6cG-Dq-Pwt"/>
                             <constraint firstItem="bvW-1q-nKl" firstAttribute="bottom" secondItem="Vw0-f4-3H1" secondAttribute="bottom" constant="20" id="HQT-Ax-ami"/>
                             <constraint firstItem="VeW-Mr-gib" firstAttribute="trailing" secondItem="bvW-1q-nKl" secondAttribute="trailing" id="Jkb-6W-syq"/>
+                            <constraint firstItem="FDq-8S-0wQ" firstAttribute="centerX" secondItem="BgQ-yF-6A2" secondAttribute="centerX" id="LtQ-N6-Aqx"/>
                             <constraint firstItem="VeW-Mr-gib" firstAttribute="bottom" secondItem="bvW-1q-nKl" secondAttribute="bottom" id="Nvy-yo-Dnm"/>
                             <constraint firstItem="Cxq-Ju-FMY" firstAttribute="centerY" secondItem="BgQ-yF-6A2" secondAttribute="centerY" id="R6w-c3-d5Z"/>
                             <constraint firstItem="VeW-Mr-gib" firstAttribute="leading" secondItem="bvW-1q-nKl" secondAttribute="leading" id="SGD-hW-Rbe"/>
                             <constraint firstItem="bvW-1q-nKl" firstAttribute="trailing" secondItem="Vw0-f4-3H1" secondAttribute="trailing" constant="30" id="aQP-hj-5Q9"/>
                             <constraint firstItem="Vw0-f4-3H1" firstAttribute="leading" secondItem="bvW-1q-nKl" secondAttribute="leading" constant="30" id="lZj-zi-QlI"/>
                             <constraint firstItem="Cxq-Ju-FMY" firstAttribute="centerX" secondItem="BgQ-yF-6A2" secondAttribute="centerX" id="skB-O2-Mm5"/>
+                            <constraint firstItem="FDq-8S-0wQ" firstAttribute="top" secondItem="bvW-1q-nKl" secondAttribute="top" constant="30" id="wb9-B7-G7c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bvW-1q-nKl"/>
                     </view>
@@ -188,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mYg-1L-sHR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-451" y="-301"/>
+            <point key="canvasLocation" x="-546" y="96"/>
         </scene>
         <!--GenderVC-->
         <scene sceneID="8kh-f4-CAM">
@@ -210,7 +218,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p1-MB-70D" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p1-MB-70D" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50.5" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -223,7 +231,7 @@
                                             <segue destination="PCL-Em-5bh" kind="show" id="URB-rA-0R2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWp-ps-SsG" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWp-ps-SsG" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="106.5" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -310,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZS-Pe-nLc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1467" y="-553"/>
+            <point key="canvasLocation" x="-465" y="-560"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="N6r-Lt-KeD">
@@ -328,7 +336,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eLn-A3-bFU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1807" y="101"/>
+            <point key="canvasLocation" x="-2086" y="96"/>
         </scene>
         <!--Results-->
         <scene sceneID="aVd-Zg-6iq">
@@ -366,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QZ5-t0-P8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="451" y="1008"/>
+            <point key="canvasLocation" x="200" y="893"/>
         </scene>
         <!--FoodVC-->
         <scene sceneID="TIL-Zn-Xog">
@@ -423,7 +431,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQA-Kv-j0T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1552" y="1008"/>
+            <point key="canvasLocation" x="845" y="893"/>
         </scene>
         <!--Units ConfirmationVC-->
         <scene sceneID="MMj-F6-JYh">
@@ -445,7 +453,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRE-o3-Y8o" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRE-o3-Y8o" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50.5" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -459,7 +467,7 @@
                                             <segue destination="fR9-Fm-9yU" kind="show" id="RYv-T2-1eQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWm-ST-RSk" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWm-ST-RSk" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="106.5" width="354" height="36"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -574,7 +582,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swf-Wk-US0" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swf-Wk-US0" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                 <rect key="frame" x="82" y="737" width="250" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -634,7 +642,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njq-Nk-zdy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2807" y="96"/>
+            <point key="canvasLocation" x="2864" y="96"/>
         </scene>
         <!--Height And AgeVC-->
         <scene sceneID="eSf-Gc-1dP">
@@ -647,7 +655,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="Xmu-TR-ilI">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDu-eW-uJZ" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDu-eW-uJZ" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                 <rect key="frame" x="82" y="737" width="250" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -761,7 +769,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6cz-fE-SiV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3493" y="96"/>
+            <point key="canvasLocation" x="3557" y="96"/>
         </scene>
         <!--Level Of ActivityVC-->
         <scene sceneID="802-Uu-RD8">
@@ -875,7 +883,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ji-BS-Sl1" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ji-BS-Sl1" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                 <rect key="frame" x="82" y="737" width="250" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -952,7 +960,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="m6k-Di-Ry1">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRN-tW-jnv" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRN-tW-jnv" customClass="BorderButton" customModule="Keto_Macros" customModuleProvider="target">
                                 <rect key="frame" x="82" y="737" width="250" height="36"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1252,7 +1260,6 @@
                         <outlet property="notRecLbl" destination="DyY-xj-saL" id="RSb-T4-Tew"/>
                         <outlet property="proteinCalsLbl" destination="byn-pz-W31" id="R56-Pk-wsh"/>
                         <outlet property="proteinGramsLbl" destination="Co5-Hd-uwS" id="aJX-YE-b5C"/>
-                        <segue destination="oqp-Ls-toj" kind="presentation" identifier="nutritionVCSegue" modalPresentationStyle="pageSheet" id="89w-rN-pZO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DA7-9G-HbT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1270,13 +1277,33 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="r9b-2y-fws">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="zG8-g4-v3g">
+                                <rect key="frame" x="5" y="88" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="c3P-e2-aHp"/>
+                                    <constraint firstAttribute="height" constant="50" id="iz7-QZ-ARv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proceed to get your personalized results!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tko-ld-cXN">
+                                <rect key="frame" x="83" y="415" width="248" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="POa-0y-zkS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="r9b-2y-fws" firstAttribute="top" secondItem="9P8-JL-Vc3" secondAttribute="top" id="ORH-XY-5kK"/>
+                            <constraint firstItem="tko-ld-cXN" firstAttribute="centerX" secondItem="3la-TK-z4Z" secondAttribute="centerX" id="W52-pN-EQ2"/>
                             <constraint firstItem="r9b-2y-fws" firstAttribute="trailing" secondItem="9P8-JL-Vc3" secondAttribute="trailing" id="YPL-jF-bzi"/>
                             <constraint firstItem="r9b-2y-fws" firstAttribute="bottom" secondItem="9P8-JL-Vc3" secondAttribute="bottom" id="cd0-i1-Dk9"/>
+                            <constraint firstItem="zG8-g4-v3g" firstAttribute="top" secondItem="9P8-JL-Vc3" secondAttribute="top" id="dp3-6g-Cqu"/>
                             <constraint firstItem="r9b-2y-fws" firstAttribute="leading" secondItem="9P8-JL-Vc3" secondAttribute="leading" id="mYx-Eh-ofP"/>
+                            <constraint firstItem="zG8-g4-v3g" firstAttribute="leading" secondItem="9P8-JL-Vc3" secondAttribute="leading" constant="5" id="pP9-Xz-xH9"/>
+                            <constraint firstItem="tko-ld-cXN" firstAttribute="centerY" secondItem="3la-TK-z4Z" secondAttribute="centerY" id="wAN-6b-WPe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9P8-JL-Vc3"/>
                     </view>
@@ -1287,131 +1314,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBA-A1-3c2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="96"/>
-        </scene>
-        <!--NutritionVC-->
-        <scene sceneID="tWn-X8-DO1">
-            <objects>
-                <viewController id="oqp-Ls-toj" customClass="NutritionVC" customModule="Keto_Macros" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="g9v-4Z-jxi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nutrition" translatesAutoresizingMaskIntoConstraints="NO" id="bTS-st-Hdg">
-                                <rect key="frame" x="89.5" y="10" width="235" height="421"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="235" id="DcN-v6-DXf"/>
-                                    <constraint firstAttribute="height" constant="421" id="I3T-sH-P2o"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oR-Wq-Qk7">
-                                <rect key="frame" x="10" y="10" width="30" height="30"/>
-                                <state key="normal" title="X"/>
-                                <connections>
-                                    <action selector="onBackTapped:" destination="oqp-Ls-toj" eventType="touchUpInside" id="kFN-Bx-Gag"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCv-Rh-ZnL">
-                                <rect key="frame" x="69.5" y="150" width="20" height="22"/>
-                                <state key="normal" image="info.circle" catalog="system"/>
-                                <connections>
-                                    <action selector="onFatsITapped:" destination="oqp-Ls-toj" eventType="touchUpInside" id="yaz-OY-NXv"/>
-                                    <action selector="onInfoTapped:" destination="a5U-z5-eU8" eventType="touchUpInside" id="0Vf-3n-T48"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAH-0x-XeH">
-                                <rect key="frame" x="69.5" y="295" width="20" height="22"/>
-                                <state key="normal" image="info.circle" catalog="system"/>
-                                <connections>
-                                    <action selector="onInfoTapped:" destination="a5U-z5-eU8" eventType="touchUpInside" id="191-mp-f39"/>
-                                    <action selector="onProteinITapped:" destination="oqp-Ls-toj" eventType="touchUpInside" id="x2c-Us-2Wf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGD-OV-FZf">
-                                <rect key="frame" x="69.5" y="229" width="20" height="22"/>
-                                <state key="normal" image="info.circle" catalog="system"/>
-                                <connections>
-                                    <action selector="onCarbsITapped:" destination="oqp-Ls-toj" eventType="touchUpInside" id="Enw-HH-IOS"/>
-                                    <action selector="onInfoTapped:" destination="a5U-z5-eU8" eventType="touchUpInside" id="BqO-Zj-uvC"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="lAH-0x-XeH" firstAttribute="top" secondItem="HGD-OV-FZf" secondAttribute="bottom" constant="44" id="7i5-II-7cS"/>
-                            <constraint firstItem="5oR-Wq-Qk7" firstAttribute="top" secondItem="EdH-Kl-7qi" secondAttribute="top" constant="10" id="OoB-s3-PKU"/>
-                            <constraint firstItem="5oR-Wq-Qk7" firstAttribute="leading" secondItem="EdH-Kl-7qi" secondAttribute="leading" constant="10" id="PRF-W5-1c7"/>
-                            <constraint firstItem="HGD-OV-FZf" firstAttribute="top" secondItem="cCv-Rh-ZnL" secondAttribute="bottom" constant="57" id="PbF-PE-NFV"/>
-                            <constraint firstItem="bTS-st-Hdg" firstAttribute="leading" secondItem="lAH-0x-XeH" secondAttribute="trailing" id="SKj-EC-g7h"/>
-                            <constraint firstItem="bTS-st-Hdg" firstAttribute="leading" secondItem="cCv-Rh-ZnL" secondAttribute="trailing" id="VpP-BC-yEl"/>
-                            <constraint firstItem="bTS-st-Hdg" firstAttribute="centerX" secondItem="g9v-4Z-jxi" secondAttribute="centerX" id="WtR-H2-j0M"/>
-                            <constraint firstItem="bTS-st-Hdg" firstAttribute="leading" secondItem="HGD-OV-FZf" secondAttribute="trailing" id="Y3L-Q4-NHW"/>
-                            <constraint firstItem="cCv-Rh-ZnL" firstAttribute="top" secondItem="EdH-Kl-7qi" secondAttribute="top" constant="150" id="fuq-Ns-p8p"/>
-                            <constraint firstItem="bTS-st-Hdg" firstAttribute="top" secondItem="EdH-Kl-7qi" secondAttribute="top" constant="10" id="p8p-tf-Mtz"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="EdH-Kl-7qi"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Kuv-71-kq3"/>
-                    <connections>
-                        <segue destination="xZB-47-VYf" kind="presentation" identifier="nutritionDescriptionVCSegue" modalPresentationStyle="formSheet" id="a73-38-0py"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CoE-26-MjX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8123" y="96"/>
-        </scene>
-        <!--Nutrition DescriptionVC-->
-        <scene sceneID="n4y-Px-Ly9">
-            <objects>
-                <viewController id="xZB-47-VYf" customClass="NutritionDescriptionVC" customModule="Keto_Macros" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Kdv-Wy-oeL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="1cx-UE-EW8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7K-Du-N2a">
-                                <rect key="frame" x="10" y="10" width="30" height="30"/>
-                                <state key="normal" title="X"/>
-                                <connections>
-                                    <action selector="closeBtnTapped:" destination="xZB-47-VYf" eventType="touchUpInside" id="N1T-Ej-Le1"/>
-                                    <action selector="onBackTapped:" destination="oqp-Ls-toj" eventType="touchUpInside" id="uck-3e-IVA"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Unm-pR-eQh">
-                                <rect key="frame" x="72" y="271" width="270" height="300"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="270" id="wDf-YL-8Lf"/>
-                                    <constraint firstAttribute="height" constant="300" id="xZO-aE-Kja"/>
-                                </constraints>
-                                <string key="text">On most nutrition labels, your macros will be shown in grams. From the data you have entered, your daily intake of fats should be 200g. This product has 4g of fat. </string>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Unm-pR-eQh" firstAttribute="centerX" secondItem="Kdv-Wy-oeL" secondAttribute="centerX" id="0mk-cx-epE"/>
-                            <constraint firstItem="1cx-UE-EW8" firstAttribute="trailing" secondItem="w3r-GC-kS6" secondAttribute="trailing" id="3yp-n7-LAb"/>
-                            <constraint firstItem="r7K-Du-N2a" firstAttribute="leading" secondItem="w3r-GC-kS6" secondAttribute="leading" constant="10" id="5GF-aH-5Es"/>
-                            <constraint firstItem="Unm-pR-eQh" firstAttribute="centerY" secondItem="Kdv-Wy-oeL" secondAttribute="centerY" id="9sF-uM-N0v"/>
-                            <constraint firstItem="1cx-UE-EW8" firstAttribute="bottom" secondItem="w3r-GC-kS6" secondAttribute="bottom" id="MiH-ZK-dyU"/>
-                            <constraint firstItem="1cx-UE-EW8" firstAttribute="leading" secondItem="w3r-GC-kS6" secondAttribute="leading" id="NLz-AO-qTE"/>
-                            <constraint firstItem="1cx-UE-EW8" firstAttribute="top" secondItem="w3r-GC-kS6" secondAttribute="top" id="Ult-Le-tvh"/>
-                            <constraint firstItem="r7K-Du-N2a" firstAttribute="top" secondItem="w3r-GC-kS6" secondAttribute="top" constant="10" id="shc-NZ-sIw"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="w3r-GC-kS6"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="9Nv-Bm-9H7"/>
-                    <connections>
-                        <outlet property="desc" destination="Unm-pR-eQh" id="nFd-OR-obp"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cy2-eB-Mr6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8849" y="110"/>
+            <point key="canvasLocation" x="162" y="96"/>
         </scene>
         <!--Old ResultsVC-->
         <scene sceneID="a7B-JK-VYL">
@@ -1589,6 +1492,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000149011612" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="3wh-Pj-NMv">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="vFg-Ur-LO0">
+                                <rect key="frame" x="5" y="88" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Tof-8m-9xz"/>
+                                    <constraint firstAttribute="width" constant="50" id="wFK-jS-6jE"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0V-OQ-DhK">
                                 <rect key="frame" x="187.5" y="437" width="39" height="22"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
@@ -1602,8 +1512,10 @@
                             <constraint firstItem="g0V-OQ-DhK" firstAttribute="centerX" secondItem="GCU-mr-81L" secondAttribute="centerX" id="Bfc-BB-GVf"/>
                             <constraint firstItem="3wh-Pj-NMv" firstAttribute="leading" secondItem="wIN-JR-bEU" secondAttribute="leading" id="EXW-GX-Gqo"/>
                             <constraint firstItem="3wh-Pj-NMv" firstAttribute="trailing" secondItem="wIN-JR-bEU" secondAttribute="trailing" id="H88-0K-ll1"/>
+                            <constraint firstItem="vFg-Ur-LO0" firstAttribute="leading" secondItem="wIN-JR-bEU" secondAttribute="leading" constant="5" id="OHK-69-LMD"/>
                             <constraint firstItem="g0V-OQ-DhK" firstAttribute="centerY" secondItem="GCU-mr-81L" secondAttribute="centerY" id="ZdM-eQ-I5i"/>
                             <constraint firstItem="3wh-Pj-NMv" firstAttribute="bottom" secondItem="wIN-JR-bEU" secondAttribute="bottom" id="sf3-SQ-vQb"/>
+                            <constraint firstItem="vFg-Ur-LO0" firstAttribute="top" secondItem="wIN-JR-bEU" secondAttribute="top" id="x43-Cq-ZYl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wIN-JR-bEU"/>
                     </view>
@@ -1614,7 +1526,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1tg-eS-j7o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="96"/>
+            <point key="canvasLocation" x="817" y="96"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -1627,7 +1539,6 @@
         <image name="flower" width="960" height="540"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="logo" width="400" height="350"/>
-        <image name="nutrition" width="124" height="229"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
     </resources>
 </document>

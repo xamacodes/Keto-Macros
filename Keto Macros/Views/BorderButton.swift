@@ -13,7 +13,7 @@ class BorderButton: UIButton { //For curving the edges and adding a border
     override func awakeFromNib() {
         super.awakeFromNib()
         layer.borderWidth = 3.0
-        layer.cornerRadius = 5
+        layer.cornerRadius = 17
     }
 
 }

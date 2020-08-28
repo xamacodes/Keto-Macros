@@ -25,7 +25,9 @@ class LoginVC: UIViewController {
         appleButton.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(appleButton)
-        NSLayoutConstraint.activate([appleButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+        
+        appleButton.cornerRadius = 17
+        NSLayoutConstraint.activate([appleButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30),
                                      appleButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
                                      appleButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)])
     }
@@ -35,7 +37,7 @@ class LoginVC: UIViewController {
         if let newHomeVC = segue.destination as? NewHomeVC /*, let user = sender as? User*/ {
             newHomeVC.user = user
         } else {
-            Utilities.errorMsg("LoginVC.prepare() ")
+            Utilities.errorMsg("LoginVC.prepare(): error code 21 -> issue with segue")
         }
     }
     
@@ -71,7 +73,7 @@ extension LoginVC: ASAuthorizationControllerDelegate {
     }
     
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
-        print("Apple sign-in error: ", error)
+        Utilities.errorMsg("LoginVC.authorizationController(): error code 22 -> issue with authorization for apple id")
     }
 }
 
