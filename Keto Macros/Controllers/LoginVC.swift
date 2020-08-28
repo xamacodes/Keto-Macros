@@ -18,6 +18,7 @@ class LoginVC: UIViewController {
         setupView()
     }
     
+    //Sets up the initial view
     func setupView() {
         let appleButton = ASAuthorizationAppleIDButton()
         appleButton.addTarget(self, action: #selector(didTapAppleButton), for: .touchUpInside)
@@ -29,6 +30,16 @@ class LoginVC: UIViewController {
                                      appleButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)])
     }
     
+    //Sends the user data to the NewHomeVC
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let newHomeVC = segue.destination as? NewHomeVC /*, let user = sender as? User*/ {
+            newHomeVC.user = user
+        } else {
+            Utilities.errorMsg("LoginVC.prepare() ")
+        }
+    }
+    
+    //Opens authorization controller for the apple id sign-in
     @objc func didTapAppleButton() {
         let provider = ASAuthorizationAppleIDProvider()
         let request = provider.createRequest()
@@ -41,18 +52,10 @@ class LoginVC: UIViewController {
         
         controller.performRequests()
     }
-    
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let newHomeVC = segue.destination as? NewHomeVC /*, let user = sender as? User*/ {
-            newHomeVC.user = user
-        } else {
-            print("error with segue.")
-        }
-    }
 
 }
 
+//Add-on to the LoginVC that stores the user's credentials, if unable to, then stores no data
 extension LoginVC: ASAuthorizationControllerDelegate {
     func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         
@@ -64,7 +67,6 @@ extension LoginVC: ASAuthorizationControllerDelegate {
             
         default:
             break
-            
         }
     }
     
@@ -73,9 +75,9 @@ extension LoginVC: ASAuthorizationControllerDelegate {
     }
 }
 
+//Add-on to the LoginVC that sets up the presentation view
 extension LoginVC: ASAuthorizationControllerPresentationContextProviding {
     func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
         return view.window!
     }
-    
 }

@@ -209,3 +209,21 @@ import Foundation
 //    carbsGramsString.append(" grams")
 //    carbsGramsLbl.text = carbsGramsString
 //}
+
+
+
+//if let fats = food?.foodNutrients[fatsIndex!].value, let protein = food?.foodNutrients[proteinIndex!].value, let carbs = food?.foodNutrients[carbsIndex!].value {
+//if let fatsUnits = food?.foodNutrients[fatsIndex!].unitName, let proteinUnits = food?.foodNutrients[proteinIndex!].unitName, let carbsUnits = food?.foodNutrients[carbsIndex!].unitName {
+//
+//    var fatsText = "\(fats)"
+//    fatsText.append(fatsUnits.lowercased())
+//    fatsLbl.text = fatsText
+//
+//    var proteinText = "\(protein)"
+//    proteinText.append(proteinUnits.lowercased())
+//    proteinLbl.text = proteinText
+//
+//    var carbsText = "\(carbs)"
+//    carbsText.append(carbsUnits.lowercased())
+//    carbsLbl.text = carbsText
+//}

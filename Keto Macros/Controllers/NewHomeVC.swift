@@ -17,7 +17,14 @@ class NewHomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        idLbl.text = user?.debugDescription ?? ""
-        print(user?.firstName)
+        setupView()
+        
+        //print(user?.firstName)
     }
+    
+    //Sets up the initial view
+    func setupView() {
+        idLbl.text = user?.debugDescription ?? ""
+    }
+    
 }

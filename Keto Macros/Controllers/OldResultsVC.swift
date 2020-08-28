@@ -31,7 +31,7 @@ class OldResultsVC: UIViewController {
         getCaloriesAndUpdateLbls()
     }
     
-    //Sets all of the macros labels, include the calories label
+    //Sets all of the macros labels, including the calories label
     func getCaloriesAndUpdateLbls() {
         if let calories = UserDefaults.standard.object(forKey: "calories") as? Double {
             updateCalsLbl()
