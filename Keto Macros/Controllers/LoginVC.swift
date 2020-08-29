@@ -27,6 +27,7 @@ class LoginVC: UIViewController {
         view.addSubview(appleButton)
         
         appleButton.cornerRadius = 17
+        appleButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         NSLayoutConstraint.activate([appleButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30),
                                      appleButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
                                      appleButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)])
@@ -53,6 +54,7 @@ class LoginVC: UIViewController {
         controller.presentationContextProvider = self
         
         controller.performRequests()
+    
     }
 
 }
@@ -65,7 +67,7 @@ extension LoginVC: ASAuthorizationControllerDelegate {
             
         case let credentials as ASAuthorizationAppleIDCredential:
             user = User(credentials: credentials)
-            performSegue(withIdentifier: "newHomeVCSegue", sender: self)
+            performSegue(withIdentifier: "genderVCSegue", sender: self)
             
         default:
             break
