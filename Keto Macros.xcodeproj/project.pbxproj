@@ -17,12 +17,13 @@
 		A67B8C2F24F087E90006DC3C /* FoodDataCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B8C2E24F087E90006DC3C /* FoodDataCentral.swift */; };
 		A694A17E24DE1CA200ACF38A /* Keto_Macros_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A694A17D24DE1CA200ACF38A /* Keto_Macros_Tests.swift */; };
 		A6AB127E24F5E344005F74D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB127D24F5E344005F74D3 /* Utilities.swift */; };
+		A6ABBC4624FB68130005BE0A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABBC4524FB68130005BE0A /* ProfileVC.swift */; };
+		A6ABBC4E24FB736B0005BE0A /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ABBC4D24FB736B0005BE0A /* ProfileCell.swift */; };
 		A6BA1ADA24F41F70006E8B10 /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1AD924F41F70006E8B10 /* FoodVC.swift */; };
 		A6BA1ADC24F42000006E8B10 /* FoodVCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1ADB24F42000006E8B10 /* FoodVCTable.swift */; };
 		A6BA1ADE24F482DF006E8B10 /* KnowYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1ADD24F482DF006E8B10 /* KnowYouVC.swift */; };
 		A6BA1AE024F48688006E8B10 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1ADF24F48688006E8B10 /* User.swift */; };
 		A6BA1AE224F48735006E8B10 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1AE124F48735006E8B10 /* LoginVC.swift */; };
-		A6BA1AE424F487BC006E8B10 /* NewHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BA1AE324F487BC006E8B10 /* NewHomeVC.swift */; };
 		A6BB1E1A24D7699100203E8C /* HeightAndAgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB1E1924D7699100203E8C /* HeightAndAgeVC.swift */; };
 		A6E1295F24DB874300D683B1 /* WeightLossGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1295E24DB874300D683B1 /* WeightLossGoalVC.swift */; };
 		A6E1296124DBA87F00D683B1 /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E1296024DBA87F00D683B1 /* ResultsVC.swift */; };
@@ -75,12 +76,13 @@
 		A694A17D24DE1CA200ACF38A /* Keto_Macros_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keto_Macros_Tests.swift; sourceTree = "<group>"; };
 		A694A17F24DE1CA200ACF38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6AB127D24F5E344005F74D3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A6ABBC4524FB68130005BE0A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A6ABBC4D24FB736B0005BE0A /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		A6BA1AD924F41F70006E8B10 /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
 		A6BA1ADB24F42000006E8B10 /* FoodVCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVCTable.swift; sourceTree = "<group>"; };
 		A6BA1ADD24F482DF006E8B10 /* KnowYouVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYouVC.swift; sourceTree = "<group>"; };
 		A6BA1ADF24F48688006E8B10 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A6BA1AE124F48735006E8B10 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		A6BA1AE324F487BC006E8B10 /* NewHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHomeVC.swift; sourceTree = "<group>"; };
 		A6BA1AE524F48B74006E8B10 /* Keto Macros.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Keto Macros.entitlements"; sourceTree = "<group>"; };
 		A6BB1E1924D7699100203E8C /* HeightAndAgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightAndAgeVC.swift; sourceTree = "<group>"; };
 		A6E1295E24DB874300D683B1 /* WeightLossGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLossGoalVC.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			children = (
 				A6F26A8524D4FFF7009AFD07 /* WelcomeVC.swift */,
 				A6EC5EC424E70BCE00080110 /* InformationVC.swift */,
+				A6BA1AE124F48735006E8B10 /* LoginVC.swift */,
 				A63F067924D660830032D464 /* GenderVC.swift */,
 				A63F067B24D689320032D464 /* UnitsConfirmationVC.swift */,
 				A6F26A8324D4FFDC009AFD07 /* CurrentWeightVC.swift */,
@@ -197,8 +200,7 @@
 				A6BA1AD924F41F70006E8B10 /* FoodVC.swift */,
 				A6BA1ADB24F42000006E8B10 /* FoodVCTable.swift */,
 				A6BA1ADD24F482DF006E8B10 /* KnowYouVC.swift */,
-				A6BA1AE124F48735006E8B10 /* LoginVC.swift */,
-				A6BA1AE324F487BC006E8B10 /* NewHomeVC.swift */,
+				A6ABBC4524FB68130005BE0A /* ProfileVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -219,6 +221,7 @@
 				A67B8C2E24F087E90006DC3C /* FoodDataCentral.swift */,
 				A6BA1ADF24F48688006E8B10 /* User.swift */,
 				A6AB127D24F5E344005F74D3 /* Utilities.swift */,
+				A6ABBC4D24FB736B0005BE0A /* ProfileCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -345,15 +348,16 @@
 				A6BB1E1A24D7699100203E8C /* HeightAndAgeVC.swift in Sources */,
 				A6F26A6B24D4EA57009AFD07 /* AppDelegate.swift in Sources */,
 				A6F26A8624D4FFF7009AFD07 /* WelcomeVC.swift in Sources */,
-				A6BA1AE424F487BC006E8B10 /* NewHomeVC.swift in Sources */,
 				A62174C424D9D38400F33230 /* Garbage.swift in Sources */,
 				A6F26A6D24D4EA57009AFD07 /* SceneDelegate.swift in Sources */,
+				A6ABBC4624FB68130005BE0A /* ProfileVC.swift in Sources */,
 				A6BA1ADC24F42000006E8B10 /* FoodVCTable.swift in Sources */,
 				A64263C524EB6EDD00EA7346 /* OldResultsVC.swift in Sources */,
 				A6EC5ECC24E774BB00080110 /* ModBorderButton.swift in Sources */,
 				A6BA1ADE24F482DF006E8B10 /* KnowYouVC.swift in Sources */,
 				A6E1295F24DB874300D683B1 /* WeightLossGoalVC.swift in Sources */,
 				A63F067C24D689320032D464 /* UnitsConfirmationVC.swift in Sources */,
+				A6ABBC4E24FB736B0005BE0A /* ProfileCell.swift in Sources */,
 				A6F26A8224D4F300009AFD07 /* BorderButton.swift in Sources */,
 				A6BA1AE224F48735006E8B10 /* LoginVC.swift in Sources */,
 				A6EC5EC524E70BCE00080110 /* InformationVC.swift in Sources */,

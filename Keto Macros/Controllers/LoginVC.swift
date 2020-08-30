@@ -33,15 +33,6 @@ class LoginVC: UIViewController {
                                      appleButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)])
     }
     
-    //Sends the user data to the NewHomeVC
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let newHomeVC = segue.destination as? NewHomeVC /*, let user = sender as? User*/ {
-            newHomeVC.user = user
-        } else {
-            Utilities.errorMsg("LoginVC.prepare(): error code 21 -> issue with segue")
-        }
-    }
-    
     //Opens authorization controller for the apple id sign-in
     @objc func didTapAppleButton() {
         let provider = ASAuthorizationAppleIDProvider()
@@ -61,12 +52,19 @@ class LoginVC: UIViewController {
 
 //Add-on to the LoginVC that stores the user's credentials, if unable to, then stores no data
 extension LoginVC: ASAuthorizationControllerDelegate {
+    //#1
     func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         
         switch authorization.credential {
             
         case let credentials as ASAuthorizationAppleIDCredential:
             user = User(credentials: credentials)
+            
+            storeUserCredential(credential: user?.id, credentialString: "user id")
+            storeUserCredential(credential: user?.firstName, credentialString: "user first name")
+            storeUserCredential(credential: user?.lastName, credentialString: "user last name")
+            storeUserCredential(credential: user?.email, credentialString: "user email")
+            
             performSegue(withIdentifier: "genderVCSegue", sender: self)
             
         default:
@@ -74,6 +72,25 @@ extension LoginVC: ASAuthorizationControllerDelegate {
         }
     }
     
+    func storeUserCredential(credential: String?, credentialString: String) {
+        var error: String = "LoginVC.authorizationController() #1: error code"
+        if credential != nil {
+            if credentialString == "user id" {
+                error.append(" 21.1 -> user id issue storing data")
+            } else if credentialString == "user first name" {
+                error.append(" 21.2 -> user first name issue storing data")
+            } else if credentialString == "user last name" {
+                error.append(" 21.3 -> user last name issue storing data")
+            } else if credentialString == "user email" {
+                error.append(" 21.4 -> user email issue storing data")
+            }
+            UserDefaults.standard.set(credential, forKey: credentialString)
+        } else {
+            Utilities.errorMsg(error)
+        }
+    }
+    
+    //#2
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         Utilities.errorMsg("LoginVC.authorizationController(): error code 22 -> issue with authorization for apple id")
     }

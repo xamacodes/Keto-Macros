@@ -12,7 +12,8 @@ import MessageUI
 
 class WelcomeVC: UIViewController, MFMailComposeViewControllerDelegate {
     
-    @IBOutlet weak var viewResultsBtn: BorderButton!
+    @IBOutlet weak var myProfileBtn: UIButton!
+    @IBOutlet weak var startBtn: BorderButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +29,7 @@ class WelcomeVC: UIViewController, MFMailComposeViewControllerDelegate {
     
     //Sets up the initial view
     func setupView() {
-        viewResultsBtn.isHidden = true
+        myProfileBtn.isHidden = true
         checkIfTakenQuiz()
     }
     
@@ -36,7 +37,8 @@ class WelcomeVC: UIViewController, MFMailComposeViewControllerDelegate {
     func checkIfTakenQuiz() {
         if let haveTakenQuiz = UserDefaults.standard.object(forKey: "results VC reached") as? Bool {
             if haveTakenQuiz {
-                viewResultsBtn.isHidden = false
+                myProfileBtn.isHidden = false
+                startBtn.setTitle("Restart", for: .normal)
             }
         } else {
             Utilities.errorMsg("WelcomeVC.checkIfTakenQuiz(): error code 0 -> nil value")
@@ -97,11 +99,10 @@ class WelcomeVC: UIViewController, MFMailComposeViewControllerDelegate {
         }
     }
     
-    
-    //Transition to the view results page
-    @IBAction func viewResultsBtnTapped(_ sender: Any) {
-       performSegue(withIdentifier: "oldResultsVCSegue", sender: self)
-    }
+//    //Transition to the view results page
+//    @IBAction func myProfileBtnTapped(_ sender: Any) {
+//        //performSegue(withIdentifier: "oldResultsVCSegue", sender: self) CHANGE THIS BUTTFACE
+//    }
     
     //Show disclosures
     @IBAction func discBtnTapped(_ sender: Any) {

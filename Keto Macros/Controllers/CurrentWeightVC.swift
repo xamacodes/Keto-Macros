@@ -36,11 +36,24 @@ class CurrentWeightVC: UIViewController {
         
         warningMsg.isHidden = true
         
-        let nextBtn = Utilities.createKeypadBtn(view: view)
-        let continueBtn = Utilities.createKeypadBtn(view: view)
+        let nextBtn = UIButton(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 60))
+        nextBtn.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+        nextBtn.setTitle("Continue", for: .normal)
+        nextBtn.setTitleColor(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0), for: .normal)
+        nextBtn.addTarget(self, action: #selector(CurrentWeightVC.closeKeypad), for: .allTouchEvents)
+        
+        let continueBtn = UIButton(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 60))
+        continueBtn.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+        continueBtn.setTitle("Continue", for: .normal)
+        continueBtn.setTitleColor(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0), for: .normal)
+        continueBtn.addTarget(self, action: #selector(CurrentWeightVC.closeKeypad), for: .allTouchEvents)
         
         weightTxt.inputAccessoryView = nextBtn
         goalWeightTxt.inputAccessoryView = continueBtn
+    }
+    
+    @objc func closeKeypad() {
+        view.endEditing(true)
     }
     
     //Sets the user health data to be the weight entered, if they are valid entries

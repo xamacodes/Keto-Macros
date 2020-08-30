@@ -403,5 +403,14 @@ import Foundation
 //}
 //
 
+//LoginVC
 
 //    appleButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+//Sends the user data to the NewHomeVC
+//override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//    if let newHomeVC = segue.destination as? NewHomeVC /*, let user = sender as? User*/ {
+//        newHomeVC.user = user
+//    } else {
+//        Utilities.errorMsg("LoginVC.prepare(): error code 21 -> issue with segue")
+//    }
+//}
